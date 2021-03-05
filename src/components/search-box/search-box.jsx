@@ -3,10 +3,12 @@ import './search-box.css'
 
 export const SearchBox = ({placeholder, handleChange}) => {
     return (
-        <input
-            type="search"
-            placeholder="Search Monster"
-            onChange={handleChange}
-        />
+        <div className="search-box">
+            <input 
+                type="search"
+                placeholder="Search Monster"
+                onChange={handleChange}
+            />
+        </div>
     )
 }
